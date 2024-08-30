@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <string name="result">Kết quả</string>
+    <string name="plus">+</string>
+    <string name="Sub">-</string>
+    <string name="Mul">*</string>
+    <string name="Divide">/</string>
+    <string name="Per">%</string>
+</resources>
