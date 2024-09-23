@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lập trình sự kiện</string>
+    <string name="textA">Số A:</string>
+    <string name="textB">Số B:</string>
+    <string name="result">Kết quả:</string>
+    <string name="plus">Tổng 2 số</string>
+    <string name="sub">Hiệu 2 số</string>
+    <string name="multiple">Tích 2 số</string>
+    <string name="divide">Thương 2 số</string>
+    <string name="gcd">Ước chung lớn nhất</string>
+    <string name="exit">Thoát chương trình</string>
+</resources>

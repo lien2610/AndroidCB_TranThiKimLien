@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green_light">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chương trình tính BMI"
+            android:layout_span="2"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </TableRow>
+    <!-- Row 1: Nhập tên -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập tên:" />
+        <EditText
+            android:id="@+id/editTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Tên của bạn" />
+    </TableRow>
+
+    <!-- Row 2: Nhập chiều cao -->
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiều cao:" />
+        <EditText
+            android:id="@+id/editChieuCao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Chiều cao (m)" />
+    </TableRow>
+
+    <!-- Row 3: Nhập cân nặng -->
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cân nặng:" />
+        <EditText
+            android:id="@+id/editCannang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Cân nặng (kg)" />
+    </TableRow>
+
+    <!-- Row 4: Nút tính BMI -->
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btntinhBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tính BMI"
+            android:layout_span="2"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/silver"
+            android:textSize="20sp"
+            android:onClick="btntinhBMI"/>
+    </TableRow>
+
+    <!-- Row 5: Hiển thị kết quả BMI -->
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI:" />
+        <EditText
+            android:id="@+id/editBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false" />
+    </TableRow>
+
+    <!-- Row 6: Hiển thị chẩn đoán -->
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chẩn đoán:" />
+        <EditText
+            android:id="@+id/editChanDoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false" />
+    </TableRow>
+
+</TableLayout>
